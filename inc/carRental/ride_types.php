@@ -29,7 +29,7 @@
             <div class="title">Rent Midsize SUV</div>
             <div
               class="bg"
-              style="background-image: url('images/carRental/images3-Photoroom.png')"
+              style="background-image: url('images/carRental/images.jpeg')"
             ></div>
             <p>
               Comfort and space for the whole family, with plenty of room for luggage and gear.
@@ -43,7 +43,7 @@
             <div class="title">Rent Standard SUV</div>
             <div
               class="bg"
-              style="background-image: url('images/carRental/FULLSIZE-SUV.jpg')"
+              style="background-image: url('images/carRental/images111.jpeg')"
             ></div>
             <p>
               Power, comfort, and versatility for road trips, outdoor adventures, or business travel.
