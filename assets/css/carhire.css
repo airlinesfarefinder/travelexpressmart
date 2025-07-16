@@ -1,0 +1,314 @@
+#small_banner {
+  position: relative;
+  display: block;
+  width: 100%;
+  min-height: 400px;
+  background: #efefef;
+  background-position: top;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#small_banner .head {
+  text-align: center;
+  position: relative;
+  display: block;
+  width: 100%;
+  margin-top: 150px;
+}
+
+#small_banner .head h6 {
+  font-size: 16px;
+  font-weight: 700;
+  margin: 0;
+  color: #000000;
+}
+
+#small_banner .head h3 {
+  font-size: 27px;
+  font-weight: 800;
+  margin: 10px 0;
+  color: #000000;
+}
+
+#rides {
+  position: relative;
+  display: block;
+  width: 100%;
+  padding: 45px 0;
+}
+
+#rides .item_wrapper {
+  position: relative;
+  display: block;
+  width: 100%;
+  padding: 5px;
+}
+#rides .item_wrapper .item {
+  position: relative;
+  display: block;
+  width: 100%;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  height: 250px;
+  box-shadow: 2px 3px 7px -2px #00000070;
+}
+#rides .item_wrapper .item .title {
+  position: relative;
+  z-index: 1;
+  margin-bottom: 8px;
+  font-size: 15px;
+  font-weight: 700;
+  text-transform: capitalize;
+}
+#rides .item_wrapper .item .bg {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 30px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+#rides .item_wrapper .item .button {
+  position: relative;
+  display: inline-block;
+  width: auto;
+  border: 0;
+  padding: 8px 20px;
+  text-transform: capitalize;
+  font-size: 12px;
+  border-radius: 5px;
+  background: #00328a;
+  color: #fff;
+}
+#rides .item_wrapper .item .price_tag {
+  position: absolute;
+  z-index: 1;
+  top: 10px;
+  right: 0;
+  padding: 10px;
+  background: #673ab7;
+  border-top-left-radius: 15px;
+  border-bottom-left-radius: 15px;
+  color: #fff;
+}
+
+#rides .button_wrapper {
+  position: absolute;
+  width: 100%;
+  bottom: 0;
+  text-align: center;
+  padding: 7px;
+}
+
+.heading {
+  position: relative;
+  display: block;
+  width: 100%;
+  text-align: center;
+  margin-bottom: 32px;
+}
+
+.heading h3 {
+  font-size: 32px;
+  text-transform: capitalize;
+  font-weight: 600;
+}
+.heading p {
+  font-weight: 400;
+  color: #494949;
+  text-transform: capitalize;
+}
+
+.heading::after {
+  content: "";
+  position: absolute;
+  left: calc(50% - 25px);
+  bottom: -15px;
+  width: 50px;
+  height: 4px;
+  background-color: #000;
+}
+
+.col-sm-4,
+.col-lg-3 {
+  padding: 0;
+}
+
+#ride_types {
+}
+
+#ride_types .heading {
+}
+
+#ride_types .heading h3 {
+}
+
+#ride_types .heading p {
+}
+
+#ride_types .item_wrapper {
+  position: relative;
+  display: block;
+  width: 100%;
+  padding: 5px;
+}
+
+#ride_types .item_wrapper .title {
+  font-size: 18px;
+  margin-bottom: 9px;
+  margin-top: 4px;
+}
+
+#ride_types .item {
+  position: relative;
+  display: block;
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  box-shadow: 2px 3px 7px -2px #00000070;
+}
+
+#ride_types .item .bg {
+  position: relative;
+  display: block;
+  width: auto;
+  height: 200px;
+  margin-left: -10px;
+  margin-right: -10px;
+  margin-bottom: 12px;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+#ride_types .item p {
+  font-weight: 400;
+  font-size: 14px;
+}
+
+#cta_car {
+  position: relative;
+  display: block;
+  width: 100%;
+  padding: 16px;
+  background: #b1d1e9;
+  margin-top: 45px;
+  margin-bottom: 75px;
+}
+
+#cta_car .head {
+  position: relative;
+  display: block;
+  width: 100%;
+  margin-top: 55px;
+}
+
+#cta_car .head h3 {
+  margin: 0;
+  font-size: 32px;
+  font-weight: 600;
+  text-transform: capitalize;
+  margin-bottom: 10px;
+  color: #0d1b27;
+}
+
+#cta_car .head p {
+  font-size: 15px;
+  font-weight: 500;
+  color: #081b26;
+}
+
+#cta_car .bg {
+  position: relative;
+  display: block;
+  width: 100%;
+  height: 225px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+#cta_car::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 35%;
+  height: 100%;
+  background: #006ca9;
+  border-right: 4px solid #3cc2ff;
+}
+
+#cta_car .button {
+  position: relative;
+  display: inline-block;
+  width: auto;
+  padding: 12px 24px;
+  border-radius: 7px;
+  border: 2px solid #006ea1;
+  background: #003c5b;
+  color: #fff;
+  text-transform: capitalize;
+  letter-spacing: 0.5px;
+  word-spacing: 3px;
+  font-weight: 500;
+}
+
+#about_carhire {
+  position: relative;
+  display: block;
+  width: 100%;
+  margin-bottom: 16px;
+}
+
+#about_carhire .bg {
+  position: relative;
+  display: block;
+  width: 100%;
+  height: 350px;
+  background-position: bottom;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#about_carhire h3 {
+  font-size: 25px;
+  font-weight: 600;
+  color: #212747;
+  margin-bottom: 15px;
+  margin-top: 50px;
+  animation-timing-function: ;
+}
+
+#about_carhire p {
+  font-weight: 400;
+  color: #4d4d4d;
+}
+
+@media (max-width: 767px) {
+  #ride_types .heading {
+    padding: 10px;
+  }
+  #ride_types .item_wrapper {
+    padding: 15px;
+  }
+  #rides .item_wrapper .item {
+    height: 300px;
+  }
+
+  #rides .item_wrapper .item .bg {
+    bottom: 70px;
+  }
+
+  #cta_car::before {
+    display: none;
+  }
+
+  #cta_car {
+    text-align: center;
+  }
+}

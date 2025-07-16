@@ -1,0 +1,230 @@
+#travel_banner {
+  position: relative;
+  display: none;
+  width: 100%;
+  padding-bottom: 30px;
+  margin-top: 52px;
+}
+
+#travel_banner .head {
+  position: relative;
+  display: block;
+  width: 100%;
+  background: #073043;
+  padding: 16px;
+  text-transform: capitalize;
+  text-align: center;
+  font-size: 18px;
+  color: #fff;
+  font-weight: 600;
+}
+
+#travel_banner .banner {
+  position: relative;
+  display: block;
+  width: 100%;
+  height: 225px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#travel_banner .featured_lines {
+  position: relative;
+  display: block;
+  width: 100%;
+  text-align: center;
+  padding: 10px;
+}
+
+#travel_banner .featured_lines .line {
+  position: relative;
+  display: inline-block;
+  padding: 7px 15px;
+  background: #673ab7;
+  border-radius: 5px;
+  font-size: 15px;
+  font-weight: 600;
+  width: auto;
+  margin-top: -1px;
+  color: #fff;
+}
+
+#travel_banner .cta {
+  position: relative;
+  display: block;
+  width: 100%;
+  text-align: center;
+}
+
+#travel_banner .cta .title {
+  position: relative;
+  display: block;
+  width: 100%;
+  text-align: center;
+  font-size: 17px;
+  font-weight: 600;
+}
+
+#travel_banner .cta .blink_title {
+  font-size: 16px;
+  color: #673ab7;
+  font-weight: 800;
+  margin: 8px 0px;
+  position: relative;
+  display: block;
+}
+
+.call_button {
+  position: relative;
+  display: flex;
+  justify-content: center; /* Horizontal center */
+  align-items: center; /* Vertical center */
+  gap: 15px;
+  width: 100%;
+  /* background: linear-gradient(354deg, #1e3737, #09ceef); */
+
+  background: linear-gradient(229deg, #4c4e51, #0383f4);
+  padding: 15px 20px;
+  border: none;
+  text-align: left;
+  box-shadow: 1px 4px 7px -1px #00000094;
+}
+
+.call_button .icon {
+  width: 50px;
+  height: 50px;
+  background: url("../img/popup/phone-call.png") center/contain no-repeat;
+  flex-shrink: 0;
+}
+
+.call_button .text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.call_button .text h3 {
+  font-size: 14px;
+  color: #fff;
+  margin: 0;
+  text-transform: capitalize;
+}
+
+.call_button .text p {
+  font-size: 25px;
+  color: #fff;
+  margin: 5px 0 0 0;
+  font-weight: 700;
+}
+
+.blink {
+  /* animation: blink 1s ease-in-out infinite; */
+}
+
+@keyframes blink {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+#travel_banner .gutter {
+  padding: 10px;
+}
+
+#travel_banner .call_button {
+  border-radius: 25px;
+}
+
+#travel_banner .outrow {
+  position: relative;
+  display: block;
+  width: 100%;
+  text-align: center;
+  padding: 10px 20px;
+  font-size: 15px;
+  font-weight: 600;
+  color: #2d2d2d;
+}
+
+#travel_banner .pills {
+  position: relative;
+  display: block;
+  width: 100%;
+  padding: 0 15px;
+  margin: 0;
+  list-style: none;
+}
+
+#travel_banner .pills li {
+  position: relative;
+  display: block;
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+  /* background: #CDDC39; */
+  background:#000000;
+  border-radius: 12px;
+  margin: 10px 0;
+  padding-left: 40px;
+  color:  #e9e5e5;;
+}
+
+#travel_banner .pills li::after {
+  content: "";
+  position: absolute;
+  top: 15px;
+  left: 15px;
+  width: 12px;
+  height: 12px;
+  border: 2px solid #0577e9;
+  border-left: 0;
+  border-top: 0;
+  transform: rotate(-45deg);
+}
+
+#call_now_btn {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: 999;
+  display: none;
+}
+
+#call_now_btn .call_button {
+  background: #ffffff;
+  box-shadow: -1px -4px 7px -1px #ffffff94;
+  filter: invert(1);
+  border-top-right-radius: 25px;
+  border-top-left-radius: 25px;
+}
+
+#call_now_btn .call_button h3 {
+  color: #000;
+}
+
+#call_now_btn .call_button h3 span {
+  background: #ffb700;
+  padding: 7px;
+  border: 1px solid #6f301c;
+  border-radius: 7px;
+}
+
+#call_now_btn .call_button p {
+  color: #000;
+  font-weight: 800;
+}
+
+@media (max-width: 768px) {
+  #travel_banner {
+    display: block;
+  }
+
+  #call_now_btn {
+    display: block;
+  }
+}

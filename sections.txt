@@ -1,0 +1,26 @@
+Home
+    - nav
+    - banner
+        - search
+    - features
+    - deals on flights
+    - cta
+    - destinations
+    - flight routes
+    - Welcome content
+    - footer
+        - disclaimer
+        - cards logo
+        - links
+        - contact
+
+- pages
+    - home
+    - about
+    - contact
+    - policies
+        - terms-conditions
+        - privacy-policy
+        - disclaimer
+        - cancellation-refunds
+        - site-map

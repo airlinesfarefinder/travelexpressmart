@@ -1,0 +1,132 @@
+/*extra small*/
+@media (max-width: 768px) {
+  #nav {
+    width: 100%;
+    left: 0;
+  }
+
+  #nav .menu {
+    display: none;
+    position: absolute;
+    background: #fff;
+    z-index: 9;
+    width: calc(100% - 10px);
+    top: 56px;
+    left: 5px;
+    border-radius: 9px;
+  }
+
+  #nav .menu.active {
+    display: block;
+    box-shadow: 1px 3px 14px #0000005c;
+  }
+
+  #nav .menu ul li {
+    position: relative;
+    display: block;
+    float: none;
+    color: #000;
+  }
+
+  #nav .logo {
+    /* width: 100%; */
+    background-size: contain;
+    background-position: left;
+     width: 160px;
+    height: 61px;
+       
+  }
+
+  #nav .menu.right {
+    display: block;
+    position: relative;
+    top: 0;
+    background: no-repeat;
+    width: 100%;
+  }
+
+  #nav .menu.right li {
+    width: auto;
+    float: left;
+    margin: 0 6px;
+    color: #fff;
+  }
+
+  #nav .menu.right .icononly {
+    display: block !important;
+    float: right;
+  }
+
+  #banner {
+    padding: 10px;
+  }
+
+  #banner .search .button.submit {
+    width: 100%;
+  }
+
+  #features {
+    padding: 10px;
+  }
+
+  #features .header {
+    border-right: 0;
+  }
+
+  #flight_deals {
+    padding: 15px;
+  }
+
+  #features .header {
+    margin-top: 25px;
+  }
+
+  #top_flights {
+    padding: 10px;
+  }
+
+  #cruise_deals {
+    padding: 10px;
+  }
+
+  #packages {
+    padding: 10px;
+  }
+
+  #about {
+    padding: 15px;
+  }
+
+  #about .gutter{
+    padding: 5px;
+  }
+
+  #footer {
+    padding: 15px;
+  }
+
+  #features .header {
+    border-radius: 12px;
+  }
+
+  #footer ul.logos{
+    text-align: center;
+  }
+}
+
+/*extra small end*/
+/*small*/
+@media (min-width: 768px) {
+}
+
+/*small end*/
+/*medium */
+@media (min-width: 992px) {
+}
+
+/*medium end*/
+/*large*/
+@media (min-width: 1200px) {
+}
+
+/*large end*/
