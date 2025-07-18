@@ -284,13 +284,13 @@
 
 
 <div class="overlayflight">
-  <h6>Secure Your Dream Flight Now</h6>
+
   <h3>
     Take Off to Exotic Destinations <br />
 
     <a href="tel:(866) 337-7171"> Call us   (866) 337-7171</a>
   </h3>
-  <p>Don't miss out on exclusive offers!</p>
+
 </div>
 
 
