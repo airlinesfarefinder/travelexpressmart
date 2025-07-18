@@ -1,311 +1,229 @@
-
-
 <style>
+  .reservation-container {
 
-
-#cruise_banner {
-  position: relative;
-  display: block;
-  width: 100%;
-  padding-bottom: 30px;
-}
-
-#cruise_banner .head {
-  position: relative;
-  display: block;
-  width: 100%;
-  background: #6a11cb;
-  padding: 16px;
-  text-transform: capitalize;
-  text-align: center;
-  font-size: 18px;
-  color: #fff;
-  font-weight: 600;
-  
-    margin-top: 65px;
-}
-
-#cruise_banner .banner {
-  position: relative;
-  display: block;
-  width: 100%;
-  height: 250px;
-  background-position: top center;
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-
-#cruise_banner .featured_lines {
-  position: relative;
-  display: block;
-  width: 100%;
-  text-align: center;
-  padding: 10px;
-}
-
-#cruise_banner .featured_lines .line {
-  position: relative;
-  display: inline-block;
-  padding: 7px 15px;
-  background: #ffb700;
-  border-radius: 5px;
-  font-size: 15px;
-  font-weight: 600;
-  width: auto;
-  margin-top: -1px;
-}
-
-#cruise_banner .cta {
-  position: relative;
-  display: block;
-  width: 100%;
-  text-align: center;
-}
-
-#cruise_banner .cta .title {
-  position: relative;
-  display: block;
-  width: 100%;
-  text-align: center;
-  font-size: 17px;
-  font-weight: 600;
-}
-
-#cruise_banner .cta .blink_title {
-  font-size: 16px;
-  color: #b31b4f;
-  font-weight: 800;
-  margin: 8px 0px;
-  position: relative;
-  display: block;
-}
-
-.call_button {
-  position: relative;
-  display: flex;
-  justify-content: center; /* Horizontal center */
-  align-items: center; /* Vertical center */
-  gap: 15px;
-  width: 100%;
-  /* background: linear-gradient(45deg, #0072a5, #002634); */
-background: linear-gradient(45deg, #6a11cb, #2575fc);
-
-  padding: 15px 20px;
-  border: none;
-  text-align: left;
-  box-shadow: 1px 4px 7px -1px #00000094;
-}
-
-.call_button .icon {
-  width: 50px;
-  height: 50px;
-  background: url("../img/popup/phone-call.png") center/contain no-repeat;
-  flex-shrink: 0;
-}
-
-.call_button .text {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-}
-
-.call_button .text h3 {
-  font-size: 14px;
-  color: #fff;
-  margin: 0;
-  text-transform: capitalize;
-  margin-bottom: 10px;
-}
-
-.call_button .text p {
-  font-size: 25px;
-  color: #fff;
-  margin: 5px 0 0 0;
-  font-weight: 700;
-}
-
-.blink {
-  animation: blink 1s ease-in-out infinite;
-}
-
-@keyframes blink {
-  from {
-    opacity: 0;
+    margin-top: 50px;
   }
-  to {
-    opacity: 1;
-  }
-}
 
-#cruise_banner .gutter {
-  padding: 10px;
-}
-
-#cruise_banner .call_button {
-  border-radius: 25px;
-}
-
-#cruise_banner .outrow {
-  position: relative;
-  display: block;
-  width: 100%;
-  text-align: center;
-  padding: 10px 20px;
-  font-size: 15px;
-  font-weight: 600;
-  color: #2d2d2d;
-}
-
-#cruise_banner .pills {
-  position: relative;
-  display: block;
-  width: 100%;
-  padding: 0 15px;
-  margin: 0;
-  list-style: none;
-}
-
-#cruise_banner .pills li {
-  position: relative;
-  display: block;
-  width: 100%;
-  padding: 10px;
-  font-size: 16px;
-  background: #6a11cb;
- 
-  border-radius: 12px;
-  margin: 10px 0;
-  padding-left: 40px;
-  color: #fff;
-}
-
-#cruise_banner .pills li::after {
-  content: "";
-  position: absolute;
-  top: 13px;
-  left: 15px;
-  width: 7px;
-  height: 12px;
-  border: 2px solid #ffb530;
-  border-left: 0;
-  border-top: 0;
-  transform: rotate(45deg);
-}
-
-#call_now_btn {
-  position: fixed;
-  bottom: 0;
-  left: 0;
-  right: 0;
-}
-
-#call_now_btn .call_button {
-  background: #c6d8f9;
-  box-shadow: -1px -4px 7px -1px #00000094;
-}
-
-#call_now_btn .call_button h3 {
-  color: #000;
-}
-
-#call_now_btn .call_button h3 span {
-  background: #ffb700;
-  padding: 7px;
-  border: 1px solid #6f301c;
-  border-radius: 7px;
-}
-
-#call_now_btn .call_button p {
-  color: #000;
-  font-weight: 800;
-}
-
-
-   #cruise_banner, #call_now_btn {
-    display: none;
+  .reservation-container a {
+    text-decoration: none;
   }
 
 
-
-  @media screen and (max-width: 768px) {
-    #cruise_banner, #call_now_btn {
-      display: block;
+  @media (min-width: 768px) {
+    .reservation-container {
+      display: none;
     }
+  }
+
+  .heade {
+    text-align: center;
+    padding: 20px;
+    background: #3689b3;
+    position: relative;
+    background-color: #ffffff !important;
+  }
+
+ 
+
+  .header-title {
+    color: #000000;
+    font-size: 14px;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin-bottom: 8px;
+  }
+
+  .phone-number {
+    background: #066ca5;
+    color: #ffffff;
+    padding: 8px 16px;
+    border-radius: 25px;
+    font-size: 14px;
+    font-weight: 700;
+    border: 2px solid rgba(255, 255, 255, 0.3);
+    display: inline-block;
+  }
+
+  .main-content {
+    padding: 30px 20px;
+
+
+    background: url('./images/home/bg-mobile.webp');
+
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+  }
+
+
+  .middle_dark_over {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.35);
+    ;
+    z-index: 1;
+
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+  }
+
+
+
+  .content-inner {
+    position: relative;
+    z-index: 2;
+  }
+
+  .desk-title {
+    color: #ffffff;
+    font-size: 28px;
+    font-weight: 700;
+    margin-bottom: 25px;
+    text-align: center;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  }
+
+  .services-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 15px;
+    margin-bottom: 25px;
+  }
+
+  .service-item {
+    display: flex;
+    align-items: center;
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: 500;
+  }
+
+  .service-item::before {
+    content: '✓';
+    color: #ffffff;
+    font-weight: 700;
+    margin-right: 8px;
+
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 12px;
+  }
+
+  .promo-banner {
+
+    color: #ffffff;
+    padding: 12px;
+    border-radius: 8px;
+    text-align: center;
+    margin-bottom: 25px;
+    font-size: 22px;
+    font-weight: 700;
+
+  }
+
+  .cta-button {
+    background: #066ca5;
+    color: #ffffff;
+    border: none;
+    padding: 18px 25px;
+    border-radius: 15px;
+    font-size: 30px;
+    font-weight: bolder;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    width: 100%;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    border: 2px solid rgba(255, 255, 255, 0.3);
+  }
+
+  .cta-button:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 8px 16px rgba(30, 58, 138, 0.5);
+  }
+
+  .phone-large {
+    font-size: 30px;
+    font-weight: bolder;
+    color: #ffffff;
+    margin-top: 5px;
+    display: block;
+  }
+
+  .footer {
+    background: #066ca5;
+    padding: 20px;
+    text-align: center;
+    position: relative;
+  }
+
+
+
+  .footer-content {
+    position: relative;
+    z-index: 2;
+  }
+
+  .wait-time-label {
+    color: #a5b4fc;
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 8px;
+  }
+
+  .wait-time-value {
+    color: #ffffff;
+    font-size: 20px;
+    font-weight: 700;
   }
 </style>
 
 
-<div id="cruise_banner">
- 
-    <a href="tel:(866) 337-7171"  style="text-decoration: none;" >
-    <div class="head">All-In-One Reservation Desk</div>
-    <div class="banner" style="background-image:url('images/images/smiling-customer-representative-stockcake.jpg'); "></div>
-    <div class="featured_lines">
-        <div class="line">Limited-Time Flight Deals | Last-Minute Getaways</div>
-        <div class="line">Exciting Shore Adventures</div>
+<div class="reservation-container">
+  <a href="tel:(866) 337-7171">
+    <div class="heade">
+      <div class="header-title">All Reservations</div>
+      <div class="phone-number">CALL US | 24/7: (866) 337-7171</div>
     </div>
-    <div class="cta">
-        <span class="title">No Wait Time – Talk to an Agent Instantly</span>
-        <span class="blink_title blink">Tap to Book Your Ideal Flight!</span>
-        <div class="gutter">
-            <button class="call_button">
-                <div class="icon animated_icon" style="background-image:url('./images/images/phone.gif')"></div>
-                <div class="text">
-                    <h3>exclusive call-only flight deals</h3>
-                 
-                     <a href="tel:(866) 337-7171"  style=" text-decoration: none;font-size:30px;font-weight:bolder; color:white "    >(866) 337-7171</a>
-                </div>
-            </button>
+
+    <div class="main-content">
+      <div class="middle_dark_over"></div>
+      <div class="content-inner">
+        <h1 class="desk-title">Reservation Desk</h1>
+
+        <div class="services-grid">
+          <div class="service-item">New bookings</div>
+          <div class="service-item">Changes</div>
+          <div class="service-item">Cancellations</div>
+          <div class="service-item">Customer Service</div>
+          <div class="service-item">Refunds</div>
         </div>
-        <p class="outrow">Speak with Our Flight Specialists to Save Up to 60% on Destinations Like Alaska, the Caribbean, Europe & More!</p>
+
+        <div class="promo-banner">
+       Speak with Our Flight Specialists to Save Up to 40%
+        </div>
+
+        <button class="cta-button">
+          Call Us Now
+          <span class="phone-large">(866) 337-7171</span>
+        </button>
+      </div>
     </div>
-    <ul class="pills">
-        <li>All-Inclusive Vacation Packages</li>
-        <li>Gourmet Dining & Onboard Shows</li>
-        <li>Land Excursions & Guided Tours</li>
-        <li>Round-the-Clock Assistance</li>
-        <li>Flexible Payment Methods</li>
-    </ul>
 
-    </a>
+    <div class="footer">
+      <div class="footer-content">
+        <div class="wait-time-label">Current Wait Time:</div>
+        <div class="wait-time-value">Less than 10 seconds</div>
+      </div>
+    </div>
+  </a>
 </div>
-
-
-
-<a href="tel:(866) 337-7171" style="text-decoration: none;"   >  
-<div id="call_now_btn" 
-
-style="
-z-index: 9999; 
-position: fixed; bottom: 0; left: 0; width: 100%; 
- justify-content: center; align-items: center; 
-">
-
-    <button class="call_button"  >
-        <div class="icon animated_icon" style="background-image:url('./images/images/call-ezgif.com-resize.gif');background-size:120%"></div>
-        <div class="text">
-            <h3>Sail with <span>upto 60%</span> Flight Deals !</h3>
-          
-            <a href="tel:(866) 337-7171"  style=" text-decoration: none; font-size: 30px;
-    font-weight: bolder; "    >(866) 337-7171 </a>
-        </div>
-    </button>
-
-   
-</div>
-
-</a>
-<script>
-    document.addEventListener("DOMContentLoaded", function() {
-        const banner = document.getElementById("cruise_banner");
-
-        if (banner) {
-            banner.addEventListener("click", function() {
-                const link = banner.querySelector("a");
-                if (link) {
-                    link.click();
-                }
-            });
-        }
-    });
-</script>

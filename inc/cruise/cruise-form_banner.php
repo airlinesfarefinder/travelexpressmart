@@ -89,7 +89,7 @@
 
     backdrop-filter: blur(8px);
 
-    margin-top: 44rem;
+    margin-top: 5rem;
     border-radius: 20px;
   }
 

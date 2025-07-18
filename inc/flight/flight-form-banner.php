@@ -89,7 +89,7 @@
 
         backdrop-filter: blur(8px);
 
-        margin-top: 44rem;
+        margin-top: 5rem;
         border-radius: 20px;
     }
 
@@ -232,7 +232,7 @@
     font-weight: bolder;
 }
 .overlayflight h3{
-    color: #ffffff;
+    color: #0f0f0fff;
     font-size: 35px;
     font-weight: bolder;
     margin-bottom: 20px;

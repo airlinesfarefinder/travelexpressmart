@@ -14,7 +14,7 @@ include 'inc/head.php';
     <?php
     include 'inc/nav.php';
 
-    include "inc/home/flight-mobile-section_popup.php";
+    include "inc/flight/flight-mobile-section_popup.php";
     include "inc/flight/flight-form-banner.php";
     include "inc/flight/feature.php";
 
@@ -27,6 +27,7 @@ include 'inc/head.php';
 
   
     include 'inc/footer.php';
+     include 'inc/flight/bottom.php';
     include 'inc/scripts.php';
     ?>
 
