@@ -1,7 +1,16 @@
-
 <style>
-    #footer{
-        margin-top:50px;
+    #footer {
+        margin-top: 50px;
+
+    }
+
+    @media (max-width: 768px) {
+        #footer {
+            margin-bottom: 100px;
+
+        }
+
+
     }
 </style>
 

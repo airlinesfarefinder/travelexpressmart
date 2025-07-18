@@ -21,6 +21,7 @@ include 'inc/head.php';
     include 'inc/carRental/rides.php';
     include 'inc/carRental/cta_car.php';
     include 'inc/carRental/about_carhire.php';
+        include 'inc/carRental/review.php';
     include 'inc/footer.php';
     include 'inc/carRental/bottom.php';
       include 'inc/scripts.php';

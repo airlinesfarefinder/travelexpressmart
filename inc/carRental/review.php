@@ -135,13 +135,19 @@
             .testimonial-section {
                 padding: 2rem 1rem;
             }
-             .testimonial-section h2 {
+            /* .testimonial-content p {
+                font-size: 0.95rem;
+            } */
+
+
+        .testimonial-section h2 {
                 font-size: 18px;
             }
 
             .testimonial-content p {
                 font-size: 14px;
             }
+
         }
 
         /* Demo styles to show this doesn't affect other content */
@@ -166,28 +172,28 @@
         <section class="testimonial-section">
             <h2>Read What Our Customers have to say !</h2>
             <div id="testimonialCarousel" class="carousel slide" data-bs-ride="carousel">
-                <div class="carousel-inner">
-                    <div class="carousel-item active">
-                        <div class="testimonial-content">
-                            <div class="stars">★★★★★</div>
-                            <p>
-                               Booking my flights with TravelExpressmart was incredibly easy and stress-free. I love how they offer a wide range of airlines and fare options, making it simple to find the best deals that suit my budget. The whole process was smooth, convenient, and perfect for planning my next getaway.
-                            </p>
-                            <div class="testimonial-author">Kimberly W.</div>
-                            <div class="testimonial-date">April 2025</div>
-                        </div>
-                    </div>
-                    <div class="carousel-item">
-                        <div class="testimonial-content">
-                            <div class="stars">★★★★★</div>
-                            <p>
-                              I no longer book flights directly through the airlines because TravelExpressmart has everything I need. The prices are better, the variety of flight options is incredible, and their flexible payment choices make booking easy. When I made a mistake, their representative fixed it with kindness.
-                            </p>
-                            <div class="testimonial-author">Edrica B.</div>
-                            <div class="testimonial-date">June 2025</div>
-                        </div>
-                    </div>
-                </div>
+              <div class="carousel-inner">
+    <div class="carousel-item active">
+        <div class="testimonial-content">
+            <div class="stars">★★★★★</div>
+            <p>TravelExpressmart was fast, easy, and completely stress-free. They offer a wide range of vehicles from top rental companies, so it was simple to find the perfect ride for my trip. Everything went smoothly from booking to pickup.
+            </p>
+            <div class="testimonial-author">Marissa L.</div>
+            <div class="testimonial-date">May 2025</div>
+        </div>
+    </div>
+    <div class="carousel-item">
+        <div class="testimonial-content">
+            <div class="stars">★★★★★</div>
+            <p>
+               TravelExpressmart makes renting a car so simple and reliable. I found better rates than anywhere else, and the range of vehicles was exactly what I needed. Their customer service was responsive and kind, which made the whole process even better.
+            </p>
+            <div class="testimonial-author">Trevor M.</div>
+            <div class="testimonial-date">July 2025</div>
+        </div>
+    </div>
+</div>
+
                 <!-- Carousel Indicators -->
                 <div class="carousel-indicators mt-4">
                     <button type="button" data-bs-target="#testimonialCarousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>

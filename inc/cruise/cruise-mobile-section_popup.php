@@ -48,7 +48,7 @@
     padding: 30px 20px;
 
 
-    background: url('./images/home/bg-mobile.webp');
+    background: url('./images/cruise/cruise mobile.png');
 
     background-size: cover;
     background-position: center;

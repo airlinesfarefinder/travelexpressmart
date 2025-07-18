@@ -20,6 +20,7 @@ include 'inc/head.php';
     include 'inc/cruise/part.php';
     include 'inc/cruise/cruise_deals.php';
     include 'inc/cruise/about.php';
+       include 'inc/cruise/review.php';
     include 'inc/footer.php';
     include 'inc/cruise/bottom.php';
     include 'inc/scripts.php';
