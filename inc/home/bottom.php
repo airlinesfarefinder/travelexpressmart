@@ -14,6 +14,7 @@
          box-shadow: 0 -4px 12px rgba(0, 0, 0, 0.25);
          border-top: 2px solid rgba(255, 255, 255, 0.2);
          display: block;
+         margin-top:100px;
      }
 
      .fixed-bottom-section .no-hold-text {

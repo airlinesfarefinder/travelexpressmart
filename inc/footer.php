@@ -4,14 +4,6 @@
 
     }
 
-    @media (max-width: 768px) {
-        #footer {
-            margin-bottom: 100px;
-
-        }
-
-
-    }
 </style>
 
 
