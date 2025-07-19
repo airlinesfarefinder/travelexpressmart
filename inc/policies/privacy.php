@@ -4,7 +4,7 @@
             <div class="col-md-10 col-md-offset-1">
                 <div class="head">
                     <h3>Privacy Policy</h3>
-                    <p>Amex Travel Reservations is dedicated to protecting your privacy and appreciates the trust you place in us.</p>
+                    <p>Travel Expressmart is dedicated to protecting your privacy and appreciates the trust you place in us.</p>
                 </div>
             </div>
         </div>
@@ -15,9 +15,9 @@
         <div class="policy_content">
             <div class="col-md-10 col-md-offset-1">
                 <div class="intro-text">
-                    <p>We safeguard any personal information you share when using the Amex Travel Reservations mobile applications (iOS or Android), on our website, or over the phone. This Privacy Policy (the “Policy”) outlines how we collect, use, disclose, and protect your personal data when you access our services or visit our site.</p>
+                    <p>We safeguard any personal information you share when using the Travel Expressmart mobile applications (iOS or Android), on our website, or over the phone. This Privacy Policy (the “Policy”) outlines how we collect, use, disclose, and protect your personal data when you access our services or visit our site.</p>
 
-                    <p>If you plan to enroll in the Amex Travel Reservations Member Rewards program, please review this Policy in full—particularly Section 9, which details additional practices and rules about the Member Rewards data you provide.</p>
+                    <p>If you plan to enroll in the Travel Expressmart Member Rewards program, please review this Policy in full—particularly Section 9, which details additional practices and rules about the Member Rewards data you provide.</p>
                 </div>
 
                 <div class="section">
@@ -30,14 +30,14 @@
                         <li>How you can access, update, correct, or request deletion of the Personal Data we collect</li>
                         <li>Your choices regarding how we process your Personal Data, including marketing communications</li>
                         <li>How to contact us with questions about this Policy or our privacy practices</li>
-                        <li>Special privacy practices and rules for the Amex Travel Reservations Member Rewards program</li>
+                        <li>Special privacy practices and rules for the Travel Expressmart Member Rewards program</li>
                         <li>Information about California residents’ privacy rights</li>
                         <li>Additional details for users located in the EU/EEA</li>
                     </ul>
 
                     <p><strong>“Personal Data”</strong> refers to any information that can identify you, directly or indirectly—such as your name, gender, date of birth, email address, phone number, payment details, IP address, or browsing information.</p>
 
-                    <p>This Policy applies only to Amex Travel Reservations’ platforms and services, not to any third-party websites, mobile applications, or other sources. When interacting with third-party sites, please review their privacy policies separately.</p>
+                    <p>This Policy applies only to Travel Expressmart’ platforms and services, not to any third-party websites, mobile applications, or other sources. When interacting with third-party sites, please review their privacy policies separately.</p>
                 </div>
 
                 <div class="section">
@@ -47,14 +47,14 @@
 
                 <div class="section">
                     <h2><span class="section-number">Section 2</span> — Responsible Entity for Processing Your Personal Data</h2>
-                    <p>Amex Travel Reservations, [Company Legal Name], located at <?php echo config('address') ?>, is responsible for collecting and processing your Personal Data. For additional contact information, see Section 8 below.</p>
+                    <p>Travel Expressmart, [Company Legal Name], located at <?php echo config('address') ?>, is responsible for collecting and processing your Personal Data. For additional contact information, see Section 8 below.</p>
                 </div>
 
                 <div class="section">
                     <h2><span class="section-number">Section 3</span> — Personal Data We Collect &amp; Why We Collect It</h2>
                     <p>We collect and process Personal Data in various ways depending on how you interact with our services. Specifically, we collect data when you:</p>
 
-                    <h3>A. Enroll in the Amex Travel Reservations Member Rewards Program</h3>
+                    <h3>A. Enroll in the Travel Expressmart Member Rewards Program</h3>
                     <p>Residents of the U.S. and Canada can join our Member Rewards program. When you enroll, we collect and process the following data:</p>
 
                     <h4>1. Member Rewards Account Data</h4>
@@ -90,7 +90,7 @@
                         <li>Email Address</li>
                         <li>Postal Address</li>
                     </ul>
-                    <p>We use this data to send tailored offers from Amex Travel Reservations or our partners and to include relevant updates in your Monthly Statement. You can opt out anytime via unsubscribe links in emails, your Member Rewards account settings, or by contacting us (see Section 8).</p>
+                    <p>We use this data to send tailored offers from Travel Expressmart or our partners and to include relevant updates in your Monthly Statement. You can opt out anytime via unsubscribe links in emails, your Member Rewards account settings, or by contacting us (see Section 8).</p>
                     <p>We also track your engagement with marketing emails—such as opens and link clicks—to improve personalization and optimize future campaigns.</p>
 
                     <h4>3. Accessibility &amp; Accommodation Data</h4>
@@ -151,7 +151,7 @@
                         <li>Hotel &amp; car rental reservations</li>
                         <li>Travel insurance underwriting &amp; claims support</li>
                         <li>Alternative transportation arrangements</li>
-                        <li>Market research studies sponsored by Amex Travel Reservations</li>
+                        <li>Market research studies sponsored by Travel Expressmart</li>
                         <li>Gift card program administration</li>
                     </ul>
                     <p>We enter into data processing agreements with these providers, as required by law, to ensure they handle your Personal Data securely and only for the purposes we specify.</p>
@@ -175,7 +175,7 @@
 
                 <div class="section">
                     <h2><span class="section-number">Section 7</span> — Your Choices About How We Use Your Data</h2>
-                    <p>If you have provided a U.S. billing address during a purchase, we may send you promotional emails about Amex Travel Reservations products and services. To stop receiving marketing emails, click “unsubscribe” in any email, adjust your Member Rewards settings, or contact us as described in Section 8.</p>
+                    <p>If you have provided a U.S. billing address during a purchase, we may send you promotional emails about Travel Expressmart products and services. To stop receiving marketing emails, click “unsubscribe” in any email, adjust your Member Rewards settings, or contact us as described in Section 8.</p>
                 </div>
 
                 <div class="section">
@@ -184,14 +184,14 @@
 
                     <p>Phone: <strong><?php echo config('phone_number') ?></strong><br>
                         Address: <strong><?php echo config('address') ?></strong><br>
-                        Email: <strong>Privacy@amextravelreservations.com</strong></p>
+                        Email: <strong>Privacy@travelexpressmart.com</strong></p>
 
                     <p>If you reside in California, choose “California Privacy Rights” from the subject dropdown on the contact form and be sure to include your full mailing address. EU/EEA users may request assistance from our European representative, whose details are available on the Contact Us page.</p>
                 </div>
 
                 <div class="section">
                     <h2><span class="section-number">Section 9</span> — Special Privacy Practices for Member Rewards</h2>
-                    <p>By enrolling in the Amex Travel Reservations Member Rewards program, you agree to the following supplemental privacy practices regarding the data you provide:</p>
+                    <p>By enrolling in the Travel Expressmart Member Rewards program, you agree to the following supplemental privacy practices regarding the data you provide:</p>
 
                     <p>When you become a Member Rewards member, we collect and process the personal identifiers, personal details, and financial information outlined in Section 3.A. We use this data to administer the Member Rewards program, award points, and provide member-only benefits.</p>
 
@@ -208,7 +208,7 @@
                     </ul>
                     <p>To make a request, select “California Privacy Rights” from the subject dropdown on our Contact Us form, call us at <?php echo config('phone_number') ?>, or send a written request (proper postage prepaid) to:</p>
 
-                    <p><strong>Amex Travel Reservations<br>
+                    <p><strong>Travel Expressmart<br>
                             Attn: California Privacy Rights Request<br>
                             <?php echo config('address') ?></strong></p>
                 </div>

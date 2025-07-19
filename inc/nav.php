@@ -1,3 +1,15 @@
+
+<style>
+
+
+    @media (min-width: 769px) {
+  #nav_toggle {
+    display: none !important;
+  }
+}
+
+</style>
+
 <div id="nav">
     <div class="container-fluid">
         <div class="row">
@@ -67,7 +79,7 @@
                                             <?php echo config('phone_number'); ?>
                                         </a>
                                     </li>
-                                    <li style="color:black;" id="nav_toggle" class="icononly" onclick="toggle_nav()">
+                                    <li style="color:black;" id="nav_toggle" class="icononl" onclick="toggle_nav()">
                                         <span class="ico" style="background-image:url('assets/img/menu.png');
                                          
                                              width: 20px;

@@ -30,7 +30,7 @@ margin-top:70px;
             <div class="col-sm-12">
                 <div class="head1">
                     <h3>Contact Us</h3>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing</p>
+                    <p>We’re Here to Help — Get in Touch Today</p>
                 </div>
             </div>
         </div>
