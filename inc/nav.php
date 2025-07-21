@@ -1,15 +1,3 @@
-
-<style>
-
-
-    @media (min-width: 769px) {
-  #nav_toggle {
-    display: none !important;
-  }
-}
-
-</style>
-
 <div id="nav">
     <div class="container-fluid">
         <div class="row">
@@ -32,6 +20,8 @@
                                         </a>
                                     </li>
 
+
+
                                     <li>
                                         <a href="us-flights.php">
                                             Flight
@@ -45,13 +35,11 @@
                                         </a>
                                     </li>
 
-
                                     <li>
                                         <a href="car-rental.php">
                                             Car Rental
                                         </a>
                                     </li>
-
 
 
                                     <li>
@@ -73,13 +61,16 @@
                             <div class="menu right">
                                 <ul class="clearfix">
                                     <li class="withicon">
-                                        <a href="tel:<?php echo config('phone_number'); ?>">
+
+                                       
                                             <span class="icon"
-                                                style="background-image:url('assets/img/help.png'); width:35px;"></span>&nbsp;
-                                            <?php echo config('phone_number'); ?>
-                                        </a>
+                                                style="background-image:url('assets/img/24-hours.png'); width:20px;"></span>
+                                          
+                                            <a href="tel:(866) 337-7171"> (866) 337-7171</a>
+
+                                    
                                     </li>
-                                    <li style="color:black;" id="nav_toggle" class="icononl" onclick="toggle_nav()">
+                                    <li style="color:black;" id="nav_toggle" class="icononly" onclick="toggle_nav()">
                                         <span class="ico" style="background-image:url('assets/img/menu.png');
                                          
                                              width: 20px;
