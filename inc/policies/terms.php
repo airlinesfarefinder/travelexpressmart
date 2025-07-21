@@ -85,7 +85,7 @@
                     <h2><span class="section-number">Section 7</span> — Intellectual Property</h2>
                     <p>All content on the Travel Expressmart Service—including text, images, software, logos, trademarks, and other materials (“IP”)—is owned by Travel Expressmart, its affiliates, vendors, or licensors (“Third Parties”).</p>
 
-                    <p>You agree not to copy, reproduce, distribute, modify, or create derivative works of any IP except for personal, non-commercial use on your own device. “Travel Expressmart,” the Travel Expressmart logo, amextravelreservations.com, Amex SEARCH, and other marks are trademarks or registered trademarks of Travel Expressmart.</p>
+                    <p>You agree not to copy, reproduce, distribute, modify, or create derivative works of any IP except for personal, non-commercial use on your own device. “Travel Expressmart,” the Travel Expressmart logo, travelexpressmart.com, Amex SEARCH, and other marks are trademarks or registered trademarks of Travel Expressmart.</p>
 
                     <p>Other content, products, services, or marks displayed on the Service belong to their respective third-party owners. Your access to the Service does not grant you any license or right to use those marks or content beyond what is expressly permitted here.</p>
                 </div>
@@ -140,7 +140,7 @@
 
                 <div class="section">
                     <h2>Contact Information</h2>
-                    <p>If you have questions or concerns about these Terms &amp; Conditions, please reach out via our Contact Us page or email us at <strong>support@amextravelreservations.com</strong>.</p>
+                    <p>If you have questions or concerns about these Terms &amp; Conditions, please reach out via our Contact Us page or email us at <strong>support@travelexpressmart.com</strong>.</p>
 
                     <p>Phone: <strong><?php echo config('phone_number') ?></strong><br>
                         Address: <strong><?php echo config('address') ?></strong></p>
