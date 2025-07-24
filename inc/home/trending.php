@@ -165,7 +165,7 @@ text-align: center;
                         >
                             <div class="middle_dark_overlay"></div>
                             <p class="customer_info">Unbeatable prices</p>
-                            <p class="customer_price"> Holidays under £400</p>
+                            <p class="customer_price"> Holidays under $400</p>
                         </div>
 
 
@@ -173,7 +173,7 @@ text-align: center;
 
                     <div class="tre_text">
                         <p>
-                            Holiday more and spend less with our great range of holiday deals all £400pp or less.
+                            Holiday more and spend less with our great range of holiday deals all $400pp or less.
                         </p>
 
 

@@ -17,21 +17,13 @@
     <link rel="stylesheet" href="assets/css/custom.css">
     <link rel="stylesheet" href="assets/css/media.css">
 
-                              
 
-
-<link rel="stylesheet" href="css/my-style.css">
-<link rel="stylesheet" href="css/deesha-love.css">
-<link rel="stylesheet" href="css/animate.css">
-<link rel="stylesheet" href="css/owl.carousel.min.css">
-<link rel="stylesheet" href="css/owl.theme.min.css">
-<!--  -->
 
 <link rel="stylesheet" href="assets/css/travel_banner.css">
 <link rel="stylesheet" href="assets/css/carhire.css">
 
  <link rel="stylesheet" href="assets/css/bootstrap.min.css" />
-    <link rel="stylesheet" href="css/bootstrap.min.css">
+
 
 </head>
 

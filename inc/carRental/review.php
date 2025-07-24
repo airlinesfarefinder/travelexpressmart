@@ -1,17 +1,6 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Scoped Bootstrap Component</title>
+
     <style>
-        /* Method 1: Scoped Bootstrap CSS - Load Bootstrap inside a specific container */
-        .bootstrap-scope {
-            /* Import Bootstrap CSS scoped to this container */
-            @import url('https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css');
-        }
-        
-        /* Alternative Method 2: Manual scoping with CSS */
+
         .testimonial-component .carousel {
             position: relative;
         }
@@ -81,7 +70,7 @@
             border: none;
         }
 
-        /* Your existing styles */
+ 
         .testimonial-section {
             background-color: #314b69;
             color: #000;
@@ -162,12 +151,10 @@
             margin-bottom: 1rem;
         }
     </style>
-</head>
-<body>
+
  
  
 
-    <!-- Your testimonial component with scoped Bootstrap -->
     <div class="testimonial-component">
         <section class="testimonial-section">
             <h2>Read What Our Customers have to say !</h2>
@@ -201,9 +188,8 @@
                 </div>
             </div>
         </section>
+            <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
     </div>
 
 
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
-</body>
-</html>
+
